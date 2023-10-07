@@ -1,4 +1,4 @@
-const toggle=document.getElementById('toggleDark');
+/*const toggle=document.getElementById('toggleDark');
 const body=document.querySelector('body');
 
 toggle.addEventListener('click', function(){
@@ -13,3 +13,8 @@ toggle.addEventListener('click', function(){
         body.style.transition='2s';
     }
 })
+/*CANVAS*/
+/*const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+canvas.width=window.innerWidth;
+canvas.hei*/
