@@ -1,16 +1,37 @@
-body{
-margin:0%;
-padding:0%;
-font-family:'Arial';
+.container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 .pinball_arena{
     width: 300px;
-    height: 400px;
-    position:absolute;
-    background-color:#261e57;
-    margin:100px 100px 30px 300px;
+    height:500px;
+    position: relative;
+    margin-right:400px;
+    background-color: #0a0627;
     transform: perspective(500px) rotateX(30deg);
     border: 10px solid #635858;
+}
+.score_board{
+    width: 300px;
+    height: 450px;
+    position:absolute;
+    background-color:#0a0627;
+    margin-left: 700px;
+    margin-top:100px;
+    border: 10px solid #635858;
+}
+.image{
+    top:90px;
+    bottom:0;
+    left:820px;
+    width: 300px;
+    height:200px;
+    position: absolute;
+    z-index:1;
 }
 i{
     font-size: 50px;
@@ -19,8 +40,4 @@ i{
     top: 5%;
     left: 5%;
     transform: translate(-50%,-50%);
-}
-h6{ 
-    text-align:left;
-    font-size:3em;
 }
